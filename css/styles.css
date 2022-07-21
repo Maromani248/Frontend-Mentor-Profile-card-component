@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    /* ## Colors */
+
+    /*### Primary*/
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+    /*### Neutral*/
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background: var(--Dark-cyan);
+    max-width: 1440px;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.card {
+    position: relative;
+    top: 10em;
+    left: 32em;
+    width: 26em;
+    height: 27em;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 40px var(--Dark-grayish-blue);
+}
+
+.container-top {
+    background: url(/images/bg-pattern-card.svg);
+    padding-top: 30%;
+    border-radius: 20px 20px 0 0;
+}
+
+#img-profile {
+    position: absolute;
+    left: 9.8em;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.info {
+    position: relative;
+    top: 8em;
+}
+
+#name-profile {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#age-profile {
+    color: var(--Dark-gray);
+    font-weight: 400;
+    margin-left: 7px;
+}
+
+#place-profile {
+    color: var(--Dark-gray);
+    text-align: center;
+    font-weight: 400;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: space-evenly; 
+    justify-items: center;
+    position: relative;
+    top: 11.3em;
+}
+
+hr {
+    border-color: var(--Dark-gray);
+    border-style: solid;
+    opacity: 30%;
+    position: relative;
+    top: 9.5em;
+}
+
+.sub-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.number {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.description {
+    color: var(--Dark-gray);
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#circle-top {
+    position: relative;
+    top: 1em;
+    left: 42em;
+    z-index: -2;
+    rotate: 270deg;
+    opacity: 40%;
+    max-width: 100vw;
+}
+
+#circle-bottom {
+    position: relative;
+    bottom: 120em;
+    right: 18em;
+    z-index: -1;
+    rotate: 120deg;
+}
+
+/*FOOTER*/
+footer { 
+    position: fixed;
+    top: 44em;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* MOBILE */
+/* @media  screen and (max-width: 375px){
+    
+    
+}
+ */
