@@ -34,8 +34,8 @@ body {
     position: relative;
     top: 10em;
     left: 32em;
-    width: 26em;
-    height: 27em;
+    width: 24em;
+    height: 25em;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 0 40px var(--Dark-grayish-blue);
@@ -49,7 +49,7 @@ body {
 
 #img-profile {
     position: absolute;
-    left: 9.8em;
+    left: 8.5em;
     border-radius: 50%;
     border-color: white;
     border-width: 6px;
@@ -86,7 +86,7 @@ body {
     justify-content: space-evenly; 
     justify-items: center;
     position: relative;
-    top: 11.3em;
+    top: 10.5em;
 }
 
 hr {
@@ -98,8 +98,10 @@ hr {
 }
 
 .sub-container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .number {
@@ -126,7 +128,7 @@ hr {
 
 #circle-bottom {
     position: relative;
-    bottom: 120em;
+    bottom: 119em;
     right: 18em;
     z-index: -1;
     rotate: 120deg;
@@ -136,6 +138,7 @@ hr {
 footer { 
     position: fixed;
     top: 44em;
+    left: 38.5em;
 }
 
 .attribution { 
